@@ -6,8 +6,11 @@ typedef unsigned long long ull;
 // Let n be an integer such that 
 // n = a_i mod (k + 1)
 
-// We can use the following congruence
+// We can use the following congruence to subtract n from a_i (in modulo)
 // k ≡ -1 (mod k + 1)
+// kn ≡ -n (nod k + 1)
+
+// a_i ≡ n (mod k + 1)
 // a_i + nk ≡ n - n (mod k + 1)
 // a_i + nk ≡ 0 (mod k + 1)
 
