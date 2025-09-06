@@ -50,7 +50,8 @@ int main() {
 	dsu.resize(m);
 	sz.resize(m);i
 	
-	// On this DSU implementation, there might exist the possibility a language is not used, so unused languages will point to -1, otherwise, they must point to their set parent or themselves.
+	// On this DSU implementation, there might exist the possibility a language is not used.
+	// Unused languages will point to -1, otherwise, they must point to their set parent or themselves.
 	for(int i = 0; i < m; i++) {
 		dsu[i] = -1;
 		sz[i] = 1;
