@@ -1,3 +1,4 @@
+// https://codeforces.com/contest/2020/problem/B
 #include <bits/stdc++.h>
 typedef long long ll;
 using namespace std;
