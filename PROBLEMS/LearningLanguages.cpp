@@ -48,7 +48,7 @@ int main() {
 	cin >> n >> m;
 
 	dsu.resize(m);
-	sz.resize(m);i
+	sz.resize(m);
 	
 	// On this DSU implementation, there might exist the possibility a language is not used.
 	// Unused languages will point to -1, otherwise, they must point to their set parent or themselves.
